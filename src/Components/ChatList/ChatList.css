@@ -1,0 +1,23 @@
+ul {
+    padding: 10px;
+    margin:0;
+    line-height: 20px;
+    list-style: none;
+    direction: rtl;
+    unicode-bidi: embed;
+    
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block; 
+    width: .7em;
+    height: 2px;
+  }
+  ul li:hover{
+      color: crimson;
+      cursor: pointer;
+  }

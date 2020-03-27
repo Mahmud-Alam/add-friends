@@ -1,0 +1,69 @@
+.friend-box{
+    display: flex;
+    height: 165px;
+    width:515px;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(247, 194, 205);
+    border-radius: 10px;
+    /* background-image: linear-gradient(45deg,rgb(118, 177, 250), rgb(4, 138, 255)); */
+    background-color: white;
+}
+.profile-pic{
+    width: 37%;
+    padding: 0 0 0 2px;
+}
+.profile-info{
+    padding: 0 0 0 30px;
+    width: 63%;
+}
+.profile-info .infoText{
+    margin: 0px 0 15px 0;
+    font-size: 13px;
+}
+.profile-info .name{
+    font-size: 18px;
+    cursor: pointer;
+}
+.profile-pic img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.friend-box button{
+    color: white;
+    font-weight: 700;
+    width: 93%;
+    height: 30px;
+    background-color: crimson;
+    border: 1px solid rgb(255, 59, 92);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.friend-box button:focus{
+    outline: none;
+}
+.icon{
+    font-size: 15px;
+}
+
+.tooltip .tooltiptext {
+    font-size: 12px;
+    visibility: hidden;
+    width: 100px;
+    background-color: #52565A;
+    color: rgb(216, 216, 216);
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltiptext{
+    margin: 10px 0 0 30px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
